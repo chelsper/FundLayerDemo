@@ -17,7 +17,10 @@ const displayFont = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: brand.name,
-  description: brand.descriptor
+  description: brand.descriptor,
+  icons: {
+    icon: "/icon.svg"
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
