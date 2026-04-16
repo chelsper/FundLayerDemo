@@ -15,12 +15,35 @@ export default async function LoginPage({
     <main className="shell auth-shell">
       <div className="auth-grid">
         <section className="hero auth-hero">
-          <p className="eyebrow">{brand.name}</p>
-          <h1>Sign in to manage donor and gift records</h1>
+          <div className="brand-lockup brand-lockup-hero">
+            <div className="brand-mark" aria-hidden="true">
+              <span />
+              <span />
+              <span />
+            </div>
+            <div>
+              <p className="eyebrow">{brand.shortName}</p>
+              <h1>Modern nonprofit CRM infrastructure, built to feel like a real product.</h1>
+            </div>
+          </div>
           <p className="muted">
-            This demo database is admin-focused and server-rendered. Sensitive donor and gift data are only read and
-            written on the server.
+            Work inside a live donor and gift management demo with rules-driven structure, modern workflows, and a
+            cleaner operating model than legacy nonprofit systems.
           </p>
+          <div className="auth-highlight-grid">
+            <div className="auth-highlight-card">
+              <span className="eyebrow">Custom Data</span>
+              <strong>Adapt architecture to the organization.</strong>
+            </div>
+            <div className="auth-highlight-card">
+              <span className="eyebrow">Rules Engine</span>
+              <strong>Automate nonprofit logic instead of managing it manually.</strong>
+            </div>
+            <div className="auth-highlight-card">
+              <span className="eyebrow">Real Workflows</span>
+              <strong>Navigate dashboards, constituents, gifts, and relationships in one system.</strong>
+            </div>
+          </div>
         </section>
 
         <section className="card auth-card">

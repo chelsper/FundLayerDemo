@@ -13,10 +13,18 @@ export default async function AdminLayout({ children }: { children: React.ReactN
   return (
     <main className="shell">
       <header className="topbar">
-        <div>
-          <strong>{brand.name}</strong>
-          <div className="muted">
-            {session?.email} · {session?.role}
+        <div className="brand-lockup">
+          <div className="brand-mark" aria-hidden="true">
+            <span />
+            <span />
+            <span />
+          </div>
+          <div>
+            <p className="eyebrow">FundLayer CRM</p>
+            <strong>{brand.name}</strong>
+            <div className="muted">
+              {session?.email} · {session?.role}
+            </div>
           </div>
         </div>
         <TopNavLinks
