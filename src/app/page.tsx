@@ -58,10 +58,9 @@ export default function HomePage() {
         <div className="landing-hero-grid">
           <div className="landing-hero-copy">
             <p className="eyebrow">Rules-Driven CRM Infrastructure</p>
-            <h1>Replace rigid nonprofit systems with configurable data, automation, and real operating logic.</h1>
+            <h1>Replace rigid nonprofit systems with software that fits how your team works.</h1>
             <p className="landing-lead">
-              FundLayer is a modern nonprofit CRM and data platform designed to replace one-size-fits-all systems with
-              customizable, integrated, rules-driven infrastructure.
+              FundLayer is a configurable CRM platform built for nonprofit workflows, donor logic, and reporting.
             </p>
             <div className="landing-cta-row">
               <a href="mailto:hello@fundlayer.app?subject=Request%20Demo%20Access" className="button-link">

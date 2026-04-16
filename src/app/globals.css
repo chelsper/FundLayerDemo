@@ -1520,16 +1520,16 @@ body.app-view-mobile .table-scroll table {
 .landing-hero-copy h1 {
   max-width: 11ch;
   margin-bottom: 16px;
-  font-size: clamp(3rem, 7vw, 5.8rem);
-  line-height: 0.92;
+  font-size: clamp(2.35rem, 5vw, 4.3rem);
+  line-height: 0.96;
 }
 
 .landing-lead {
-  max-width: 54rem;
-  font-size: 1.08rem;
-  line-height: 1.65;
+  max-width: 44rem;
+  font-size: 1rem;
+  line-height: 1.58;
   color: #c7e7f2;
-  margin: 0 0 22px;
+  margin: 0 0 18px;
 }
 
 .landing-proof-strip {
