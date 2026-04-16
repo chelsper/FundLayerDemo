@@ -1496,10 +1496,7 @@ body.app-view-mobile .table-scroll table {
 }
 
 .landing-hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
-  gap: 24px;
-  align-items: stretch;
+  display: block;
 }
 
 .landing-hero-copy,
@@ -1517,11 +1514,17 @@ body.app-view-mobile .table-scroll table {
   padding: 26px;
 }
 
+.landing-hero-copy-full {
+  text-align: center;
+}
+
 .landing-hero-copy h1 {
-  max-width: 11ch;
+  max-width: 15ch;
   margin-bottom: 16px;
   font-size: clamp(2.35rem, 5vw, 4.3rem);
   line-height: 0.96;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .landing-lead {
@@ -1530,16 +1533,10 @@ body.app-view-mobile .table-scroll table {
   line-height: 1.58;
   color: #c7e7f2;
   margin: 0 0 18px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.landing-proof-strip {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 22px;
-}
-
-.landing-proof-strip span,
 .landing-rule-tags span {
   display: inline-flex;
   align-items: center;
@@ -1555,11 +1552,17 @@ body.app-view-mobile .table-scroll table {
 
 .landing-hero-card {
   align-self: stretch;
+  margin-top: 24px;
+}
+
+.landing-hero-card-wide {
+  width: 100%;
 }
 
 .landing-problem-list {
   display: grid;
   gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .landing-problem-item {
@@ -1574,6 +1577,10 @@ body.app-view-mobile .table-scroll table {
 .landing-problem-item:last-child {
   border-bottom: 0;
   padding-bottom: 0;
+}
+
+.landing-cta-row-centered {
+  justify-content: center;
 }
 
 .landing-problem-item p,
@@ -1704,5 +1711,9 @@ body.app-view-mobile .table-scroll table {
   .landing-feature-card h2,
   .landing-footer-cta h2 {
     max-width: none;
+  }
+
+  .landing-problem-list {
+    grid-template-columns: 1fr;
   }
 }

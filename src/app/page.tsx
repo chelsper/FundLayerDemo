@@ -56,13 +56,13 @@ export default function HomePage() {
         </header>
 
         <div className="landing-hero-grid">
-          <div className="landing-hero-copy">
+          <div className="landing-hero-copy landing-hero-copy-full">
             <p className="eyebrow">Rules-Driven CRM Infrastructure</p>
             <h1>Replace rigid nonprofit systems with software that fits how your team works.</h1>
             <p className="landing-lead">
               FundLayer is a configurable CRM platform built for nonprofit workflows, donor logic, and reporting.
             </p>
-            <div className="landing-cta-row">
+            <div className="landing-cta-row landing-cta-row-centered">
               <a href="mailto:hello@fundlayer.app?subject=Request%20Demo%20Access" className="button-link">
                 Request Demo Access
               </a>
@@ -70,25 +70,20 @@ export default function HomePage() {
                 Enter Product Demo
               </Link>
             </div>
-            <div className="landing-proof-strip">
-              <span>Custom nonprofit workflows</span>
-              <span>Operational rules engine</span>
-              <span>Believable product demo</span>
-            </div>
           </div>
-
-          <aside className="landing-hero-card">
-            <p className="eyebrow">Why It Matters</p>
-            <div className="landing-problem-list">
-              {problemPoints.map((point) => (
-                <div key={point} className="landing-problem-item">
-                  <span className="landing-problem-dot" aria-hidden="true" />
-                  <p>{point}</p>
-                </div>
-              ))}
-            </div>
-          </aside>
         </div>
+
+        <aside className="landing-hero-card landing-hero-card-wide">
+          <p className="eyebrow">Why It Matters</p>
+          <div className="landing-problem-list">
+            {problemPoints.map((point) => (
+              <div key={point} className="landing-problem-item">
+                <span className="landing-problem-dot" aria-hidden="true" />
+                <p>{point}</p>
+              </div>
+            ))}
+          </div>
+        </aside>
       </section>
 
       <section className="landing-section">
@@ -130,11 +125,14 @@ export default function HomePage() {
             hierarchy, addressee rules, and data validation through configurable rules instead of scattered workarounds.
           </p>
           <div className="landing-rule-tags">
-            <span>Soft credits</span>
-            <span>Giving levels</span>
-            <span>Households</span>
-            <span>Salutations</span>
-            <span>Validation</span>
+            <span>Soft credit automation</span>
+            <span>Giving level tracking</span>
+            <span>Household vs. individual confusion</span>
+            <span>Finance vs. advancement mismatches</span>
+            <span>Pledge vs. payment reconciliation</span>
+            <span>Donor recognition accuracy</span>
+            <span>Duplicate records</span>
+            <span>Data integrity</span>
           </div>
         </article>
       </section>
