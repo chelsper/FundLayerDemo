@@ -23,25 +23,30 @@ export default async function LoginPage({
             </div>
             <div>
               <p className="eyebrow">{brand.shortName}</p>
-              <h1>Modern nonprofit CRM infrastructure, built to feel like a real product.</h1>
+              <h1>Stop adapting to your CRM. Start using one that adapts to you.</h1>
             </div>
           </div>
           <p className="muted">
-            Work inside a live donor and gift management demo with rules-driven structure, modern workflows, and a
-            cleaner operating model than legacy nonprofit systems.
+            Explore a live system where donor logic, workflows, and reporting are built in, not managed manually.
           </p>
           <div className="auth-highlight-grid">
             <div className="auth-highlight-card">
               <span className="eyebrow">Custom Data</span>
-              <strong>Adapt architecture to the organization.</strong>
+              <strong>Your data, your structure</strong>
+              <p>Design your system around how your organization actually operates, not the other way around.</p>
             </div>
             <div className="auth-highlight-card">
               <span className="eyebrow">Rules Engine</span>
-              <strong>Automate nonprofit logic instead of managing it manually.</strong>
+              <strong>No more fixing your data by hand</strong>
+              <p>
+                Soft credits, household vs. individual relationships, and finance vs. advancement mismatches are handled
+                automatically.
+              </p>
             </div>
             <div className="auth-highlight-card">
-              <span className="eyebrow">Real Workflows</span>
-              <strong>Navigate dashboards, constituents, gifts, and relationships in one system.</strong>
+              <span className="eyebrow">Connected Workflows</span>
+              <strong>Everything in one system</strong>
+              <p>Manage donors, gifts, relationships, and activity in a single, connected workflow.</p>
             </div>
           </div>
         </section>
