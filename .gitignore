@@ -9,6 +9,3 @@ node_modules
 *.db
 *.dump
 *.bak
-.vercel
-.env*
-!.env.example
